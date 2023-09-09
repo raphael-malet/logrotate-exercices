@@ -1,0 +1,10 @@
+[Unit]
+Description=Demon du script tshark-capture
+
+[Service]
+ExecStart=/home/molet/logrotate-exercice/script/tshark-capture.sh
+Restart=always
+RestartSec=300
+
+[Install]
+WantedBy=multi-user.target

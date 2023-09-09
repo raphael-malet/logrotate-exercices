@@ -1,0 +1,7 @@
+/var/log/tshark.log {
+        rotate 4 
+        size 1M 
+        compress
+        create 0444 root root
+}
+
